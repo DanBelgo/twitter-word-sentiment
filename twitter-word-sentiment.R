@@ -8,6 +8,7 @@ library(magrittr)
 library(syuzhet)
 library(lubridate)
 library(waffle)
+library(here)
 
 #####Setting up credentials#####
 
@@ -17,11 +18,6 @@ secret = "secret_key"
 access_token = "access_token"
 access_secret = "access_secret"
 
-appname = "AdvThinking Analytics"
-key = "YfLYcz3G0OeeJybUvGyipOTvn"
-secret = "Rp02plwLwK0vJgWKQWnxrfmdyaJ6mzsXuoysmkkqmn1A1nsaTE"
-access_token = "1242544116757651457-SeV8iE5QHrPEGBMUbwhNluzC5oOLxE"
-access_secret = "sWfJB0biyup75tgsuyMZNuTGpNMyDcnw9L2TtwGwpy0yg"
 
 twitter_token = create_token(
   app = appname,
@@ -144,7 +140,7 @@ names(parts) = paste(names(parts), parts, "%", sep = "")
 
 ###We'll create a jpg file with the output waffle chart
 
-jpeg("waffleexample.jpg", width = 700, height = 350, quality = 150)
+jpeg(here("2-Graphic Outputs", "waffleexample.jpg"), width = 700, height = 350, quality = 150)
 
 waffle(parts,
        rows = 10, 

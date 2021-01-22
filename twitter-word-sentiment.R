@@ -17,6 +17,12 @@ secret = "secret_key"
 access_token = "access_token"
 access_secret = "access_secret"
 
+appname = "AdvThinking Analytics"
+key = "YfLYcz3G0OeeJybUvGyipOTvn"
+secret = "Rp02plwLwK0vJgWKQWnxrfmdyaJ6mzsXuoysmkkqmn1A1nsaTE"
+access_token = "1242544116757651457-SeV8iE5QHrPEGBMUbwhNluzC5oOLxE"
+access_secret = "sWfJB0biyup75tgsuyMZNuTGpNMyDcnw9L2TtwGwpy0yg"
+
 twitter_token = create_token(
   app = appname,
   consumer_key = key,
@@ -111,9 +117,9 @@ df.final = positive %>%
          negative_ratio = ((negative_n+eps)/total_n)*100,
          neutral_ratio = ((neutral_n+eps)/total_n)*100) %>% 
   
-  select(date, positive_ratio, neutral_ratio, negative_ratio) %>%
-  slice(nrow(df.final)) #gets the last row only. Eliminate this line to get a time series
+  select(date, positive_ratio, neutral_ratio, negative_ratio) 
 
+df.final = slice_tail(df.final, n=1) #gets the last row only. Eliminate this line to get a time series
 
 ##Visualizing the ratios
 
@@ -136,7 +142,9 @@ parts = c("Positive Tweets = " = signif(df.final$positive_ratio,4),
 
 names(parts) = paste(names(parts), parts, "%", sep = "")
 
-###The Visualization
+###We'll create a jpg file with the output waffle chart
+
+jpeg("waffleexample.jpg", width = 700, height = 350, quality = 150)
 
 waffle(parts,
        rows = 10, 
@@ -144,3 +152,6 @@ waffle(parts,
        title = keyword_string,
        flip = T, 
        reverse = T)
+
+dev.off()
+

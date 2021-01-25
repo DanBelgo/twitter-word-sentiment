@@ -9,22 +9,28 @@ Tweets are classified as "positive", "negative", or "neutral", depending on what
 
 Some results, each one stemming from ten thousand analyzed tweets:
 
-(Placeholder for images)
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+![Example1-](https://github.com/DanBelgo/twitter-word-sentiment/blob/main/2-Graphic%20Outputs/Example%201%20-%20Hope.png)
+![Example2](https://github.com/DanBelgo/twitter-word-sentiment/blob/main/2-Graphic%20Outputs/Example%202%20-%20Murder.png)
+![Example3](https://github.com/DanBelgo/twitter-word-sentiment/blob/main/2-Graphic%20Outputs/Example%203%20-%20Trump.png)
+![Example4](https://github.com/DanBelgo/twitter-word-sentiment/blob/main/2-Graphic%20Outputs/Example%204%20-%20Biden.png)
 
 ## Setup
 I used
 
 · R (4.0.3 ver)
+· A Twitter Developer Account
 
-More recent versions can be used.
+More recent R versions can be used.
 
-Just install the required packages, change the query parameters if you wish, and you're good to go!
+**IMPORTANT:** You have to create an app in your Twitter Developer Account, get the key, secret, access token and access secret. Otherwise, it won't work.
 
 ## Features
 
-* Twitter Scrapper: The Python script is ready to scrap tweets. All you need to do is to modify the search terms to suit your needs.
-* Sentiment Analysis: The R Script cleans the tweets, runs the sentiment analysis, and an OLS regression to test if a sentiment is relevant
-* CSVs with macroeconomic data from 2016: GDP, Unemployment Rates, and the S&P500 prices, by week. 
+* Twitter Scrapper: The R script is ready
+* Sentiment Analysis: The R Script cleans the tweets and runs the sentiment analyzer
+* Graphic Output: The script will produce a waffle chart with the results.
 
 ## Status
 Finished

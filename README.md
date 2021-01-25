@@ -7,7 +7,7 @@ The idea of this script is simple: you type a word, and it extracts the overall 
 
 Tweets are classified as "positive", "negative", or "neutral", depending on what sentiment is more present (neutral tweets have the same amount of positiveness and negativeness).
 
-You can find the some [examples](##Examples) at the end of this file
+You can find the some [examples](#Examples) at the end of this file
 
 ## Setup
 I used

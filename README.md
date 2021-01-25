@@ -22,7 +22,7 @@ More recent R versions can be used.
 
 ## Features
 
-* Twitter Scrapper: The R script is ready
+* Twitter Scrapper: The R script is ready to get the most recent tweets that include the keyword
 * Sentiment Analysis: The R Script cleans the tweets and runs the sentiment analyzer
 * Graphic Output: The script will produce a waffle chart with the results.
 

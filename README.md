@@ -32,7 +32,7 @@ Finished
 Created by [Daniel Beleña](https://www.linkedin.com/in/daniel-bele%C3%B1a-gonz%C3%A1lez-949917146/?locale=en_US) - feel free to contact me!
 
 ## Examples
-Some results, each one stemming from ten thousand analyzed tweets:
+Some results, each one stemming from ten thousand analyzed tweets approximately:
 
 ![Example1](https://github.com/DanBelgo/twitter-word-sentiment/blob/main/2-Graphic%20Outputs/Example%201%20-%20Hope.png)
 ![Example2](https://github.com/DanBelgo/twitter-word-sentiment/blob/main/2-Graphic%20Outputs/Example%202%20-%20Murder.png)

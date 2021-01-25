@@ -9,12 +9,10 @@ Tweets are classified as "positive", "negative", or "neutral", depending on what
 
 Some results, each one stemming from ten thousand analyzed tweets:
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-
-![Example1-](https://github.com/DanBelgo/twitter-word-sentiment/blob/main/2-Graphic%20Outputs/Example%201%20-%20Hope.png)
-![Example2](https://github.com/DanBelgo/twitter-word-sentiment/blob/main/2-Graphic%20Outputs/Example%202%20-%20Murder.png)
-![Example3](https://github.com/DanBelgo/twitter-word-sentiment/blob/main/2-Graphic%20Outputs/Example%203%20-%20Trump.png)
-![Example4](https://github.com/DanBelgo/twitter-word-sentiment/blob/main/2-Graphic%20Outputs/Example%204%20-%20Biden.png)
+![Example1-](https://github.com/DanBelgo/twitter-word-sentiment/blob/main/2-Graphic%20Outputs/Example%201%20-%20Hope.png = 250x250)
+![Example2](https://github.com/DanBelgo/twitter-word-sentiment/blob/main/2-Graphic%20Outputs/Example%202%20-%20Murder.png = 250x250)
+![Example3](https://github.com/DanBelgo/twitter-word-sentiment/blob/main/2-Graphic%20Outputs/Example%203%20-%20Trump.png = 250x250)
+![Example4](https://github.com/DanBelgo/twitter-word-sentiment/blob/main/2-Graphic%20Outputs/Example%204%20-%20Biden.png = 250x250)
 
 ## Setup
 I used

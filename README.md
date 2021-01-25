@@ -7,12 +7,7 @@ The idea of this script is simple: you type a word, and it extracts the overall 
 
 Tweets are classified as "positive", "negative", or "neutral", depending on what sentiment is more present (neutral tweets have the same amount of positiveness and negativeness).
 
-Some results, each one stemming from ten thousand analyzed tweets:
-
-![Example1-](https://github.com/DanBelgo/twitter-word-sentiment/blob/main/2-Graphic%20Outputs/Example%201%20-%20Hope.png = 250x250)
-![Example2](https://github.com/DanBelgo/twitter-word-sentiment/blob/main/2-Graphic%20Outputs/Example%202%20-%20Murder.png = 250x250)
-![Example3](https://github.com/DanBelgo/twitter-word-sentiment/blob/main/2-Graphic%20Outputs/Example%203%20-%20Trump.png = 250x250)
-![Example4](https://github.com/DanBelgo/twitter-word-sentiment/blob/main/2-Graphic%20Outputs/Example%204%20-%20Biden.png = 250x250)
+You can find the some [examples](##Examples) at the end of this file
 
 ## Setup
 I used
@@ -35,3 +30,11 @@ Finished
 
 ## Contact
 Created by [Daniel Beleña](https://www.linkedin.com/in/daniel-bele%C3%B1a-gonz%C3%A1lez-949917146/?locale=en_US) - feel free to contact me!
+
+## Examples
+Some results, each one stemming from ten thousand analyzed tweets:
+
+![Example1](https://github.com/DanBelgo/twitter-word-sentiment/blob/main/2-Graphic%20Outputs/Example%201%20-%20Hope.png)
+![Example2](https://github.com/DanBelgo/twitter-word-sentiment/blob/main/2-Graphic%20Outputs/Example%202%20-%20Murder.png)
+![Example3](https://github.com/DanBelgo/twitter-word-sentiment/blob/main/2-Graphic%20Outputs/Example%203%20-%20Trump.png)
+![Example4](https://github.com/DanBelgo/twitter-word-sentiment/blob/main/2-Graphic%20Outputs/Example%204%20-%20Biden.png)
